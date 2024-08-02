@@ -48,3 +48,14 @@
     font-weight: bold;
 
 }
+.content-section {
+    padding-top: 5rem; /* Adjust this value based on the height of your navbar */
+}
+.hidden {
+    opacity: 0; /* Fade out effect */
+    visibility: hidden; /* Prevents interaction */
+}
+#nav-example {
+    transition: opacity 0.5s ease, visibility 0.5s ease; /* Add transition for opacity and visibility */
+    
+}

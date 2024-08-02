@@ -57,5 +57,55 @@
 }
 #nav-example {
     transition: opacity 0.5s ease, visibility 0.5s ease; /* Add transition for opacity and visibility */
-    
+}
+
+.card-slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 60vh; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+}
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.5); /* Transparent background */
+    border: none;
+    cursor: pointer;
+    font-size: 2rem; /* Adjust size as needed */
+    z-index: 10; /* Ensure buttons are above cards */
+    padding: 0 10px;
+}
+.left {
+    left: 10px; /* Position left button */
+}
+
+.right {
+    right: 10px; /* Position right button */
+}
+
+.card-container {
+    display: flex;
+    transition: transform 0.5s ease; /* Smooth transition for sliding effect */
+    width: calc(300%);
+}
+
+.card-sl {
+    min-width: calc(100% / 3); /* Adjust according to the number of cards */
+    flex-shrink: 0;
+    transition: transform 0.5s ease, filter 0.5s ease;
+    transform: scale(0.8); /* Smaller size for non-active cards */
+    filter: blur(2px); /* Blurred non-active cards */
+    opacity: 0.5; /* Make non-active cards semi-transparent */
+
+}
+
+
+.card.active {
+    transform: scale(1); /* Normal size for active card */
+    filter: blur(0); /* No blur for active card */
+    opacity: 1; /* Fully opaque active card */
 }

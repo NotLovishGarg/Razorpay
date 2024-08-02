@@ -1,0 +1,50 @@
+.custom-link {
+
+    font-family: 'Lucida sans'; /* Change to your preferred font */
+    font-size: 2.5rem; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #333; /* Dark text color */
+    text-decoration: none; /* Remove the default underline */
+    padding: 10px 15px; /* Add some padding for better spacing */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition effect */
+    margin: 10px;
+  }
+  
+  /* Hover effect */
+  .custom-link:hover {
+    color: #0056b3; /* Change text color on hover */
+    text-decoration: underline;
+    font-size: larger;
+    font-weight: bold; /* Underline text on hover */
+  }
+
+  .navbar-translucent {
+    background-color: rgba(255, 255, 255, 0.85); /* White with 80% opacity */
+    backdrop-filter: blur(10px); /* Optional: Adds a blur effect to the background */
+}
+
+.button-custom{
+    padding: 10px 15px; /* Add some padding for better spacing */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition effect */
+    margin: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button-custom:hover{
+    color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+
+}
+.btn-login{
+    color: #333;
+    padding: 10px 15px; /* Add some padding for better spacing */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition effect */
+    margin: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn-login:hover{
+    color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+
+}

@@ -22,8 +22,3 @@ Before you begin, ensure you have met the following requirements:
 - A modern web browser
 - Basic knowledge of HTML, CSS, and Bootstrap
 
-### Installation
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/razorpay-concept-clone.git
